@@ -7,7 +7,11 @@
             <div id="flush_success">
                 <c:out value="${flush}"></c:out>
             </div>
+            <div id="flush_error">
+                <c:out value="${flush}"></c:out>
+            </div>
         </c:if>
+        
         <h2>日報　一覧</h2>
         <table id="report_list">
             <tbody>
